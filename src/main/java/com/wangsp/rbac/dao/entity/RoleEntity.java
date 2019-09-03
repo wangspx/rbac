@@ -1,4 +1,4 @@
-package com.wangsp.rbac.entity;
+package com.wangsp.rbac.dao.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -12,6 +12,8 @@ import lombok.EqualsAndHashCode;
 @Data
 @EqualsAndHashCode(callSuper = true)
 public class RoleEntity extends BaseEntity {
+    /** 角色名 */
     private String name;
+    /** 角色描述 */
     private String description;
 }

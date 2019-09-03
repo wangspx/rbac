@@ -1,4 +1,4 @@
-package com.wangsp.rbac.entity;
+package com.wangsp.rbac.dao.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

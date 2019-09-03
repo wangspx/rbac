@@ -1,4 +1,4 @@
-package com.wangsp.rbac.entity;
+package com.wangsp.rbac.dao.entity;
 
 import lombok.Data;
 
@@ -15,7 +15,7 @@ import java.util.UUID;
 public class BaseEntity {
     /** 主键 */
     protected Integer id;
-    /** 唯一UUID */
+    /** 乐观锁UUID */
     protected String uuid = UUID.randomUUID().toString();
     /** 创建时间 */
     protected Date createTime;
